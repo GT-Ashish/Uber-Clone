@@ -2,81 +2,103 @@
     background-color: black;
     color: white;
     display: flex;
-    height: 50px;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
-    font-size: 11px;
+    font-size: 14px;
     position:fixed;
     top: 0;
     right:0;
     left: 0;
+    padding: 0 64px;
 }
 
 .header-first-row-right-section{
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 100px;
-}
-
-.header-first-row-left-section{
     width: 280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
+    
+}
+
+.header-first-row-left-section{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
 .header-uber-text{
     font-weight: 200;
-    font-size: 18px;
+    font-size: 24px;
     color: white;
     margin-right: 15px;
+    cursor: pointer;
 }
 
 .header-about-button{
-    font-size: 11px;
+    font-size: 14px;
     background-color: black;
     color: white;
     border: none;
+    cursor: pointer;
+}
+
+.header-about-button i{
+    margin-left: 10px;
+    position: absolute;
+    top: 40%;
+    
 }
 
 .header-language-button{
+    font-size: 14px;
     background-color: black;
     border: none;
     color: white;
+    cursor: pointer;
+    position: relative;
 }
 
+.header-language-button span{
+    margin-right: 4px;
+}
+
+
 .header-sign-up-link{
-    font-size: 11px;
     background-color: white;
     color: black;
     font-weight: 500;
-    padding: 7px 9px;
+    height: 25px;
+    padding: 8px 14px 3px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .header-second-row{
     background-color: white;
     color: #6B6B6B;
     display: flex;
-    height: 64px;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
-    font-size: 11px;
-    font-weight: 300;
-    padding: 0 100px;
+    font-size: 14px;
+    padding: 0 64px;
 }
 
 .header-second-row-right-section{
     display: flex;
     justify-content: space-between;
-    width: 450px;
+    width: 550px;
 }
 
 .header-second-row-ride-text{
     color: black;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
+}
+
+a{
+    cursor: pointer;
 }
