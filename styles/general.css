@@ -6,7 +6,19 @@ body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   margin: 0;
   padding-top: 64px;
-  height: 3000px;
+  height: 5000px;
+  font-size: 16px;
+}
+
+button , a{
+  font-family: "Inter", -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  cursor: pointer;  
+}
+
+.container{
+  max-width: 1086.72px;
+  margin: 0 auto;
+  margin-bottom: 64px;
 }
 
 .hero img{
@@ -17,8 +29,9 @@ body {
 
 .hero{
   display: flex;
-  margin: 30px 64px 64px;
+  margin-top: 32px;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .hero .column1{
@@ -135,12 +148,12 @@ body {
 }
 
 .suggestions{
-  margin: 30px 64px 0;
+  box-sizing: border-box;
 }
 
 .suggestions .feature-container{
  display: grid;
- grid-template-columns: 350px 350px 350px;
+ grid-template-columns: repeat(3, 1fr);
  gap: 20px;
 }
 
@@ -180,9 +193,124 @@ body {
 height: 100px;
 }
 
-/* .plan-for-later{
-  margin: 30px 64px 0;
-} */
+.plan-for-later{
+  box-sizing: border-box;
+  display: flex;
+}
+
+.plan-for-later button, a{
+  font-size: 16px;
+}
+
+.plan-for-later .first-column{
+  width: 702.72px;
+  
+  background-image: url(/images/plan.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgb(157, 205, 214);
+  border-radius: 15px;
+  padding: 36px;
+  
+}
+
+.plan-for-later .contents{
+ width: 330px; 
+}
+
+.date-time-container{
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.date-time-container button{
+  padding: 0 83px 0 50px;
+  height: 44px;
+  background-color: white;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.date-time-container .column1, .column2{
+  position: relative;
+}
+
+.date-time-container span{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+.dropdown-icon{
+  position: relative;
+}
+
+.dropdown-icon i{
+  position:absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.date-time-container div{
+  font-size: 14px;
+  color: rgb(94, 94, 94);
+}
+
+.plan-for-later .next-button{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  width: 300px;
+  height: 20px;
+  margin-top: 12px;
+  border-radius: 5px;
+  box-sizing: content-box;
+  margin-top: 24px;
+  border: none;
+}
+
+.plan-for-later .heading{
+  font-weight: 500;
+}
+
+.plan-for-later .second-column{
+  margin-left: 14px;
+}
+
+.plan-for-later .benefits{
+  width: 360px;
+  height: 333.4px;
+  padding: 12px 12px 0;
+  border: 1.28px solid rgb(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+
+.benefits strong{
+  font-size: 20px;
+  display: block;
+}
+
+.benefits .benefit-row{
+  height: 66px;
+  padding: 12px 0 12px 60px;
+  position: relative;
+  width: 270px;
+  line-height: 24px;
+}
+
+.benefit-row span{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.benefits a{
+  border-bottom: 1px dotted currentColor;
+  color: rgb(75, 75, 75);
+}
 
 
 

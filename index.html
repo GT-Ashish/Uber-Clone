@@ -1,201 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uber clone</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Uber clone</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/general.css">
-</head>
-<body>
-    <header>
-        <div class="header-first-row">
-            <div class="header-first-row-left-section">
-                <a class="header-uber-text">
-                    Uber
-                </a>
-                <a class="header-ride-link">
-                    Ride
-                </a>
-                <a class="header-drive-link">
-                    Drive
-                </a>
-                <a class="header-business-link">
-                    Business
-                </a>
-                <button class="header-about-button">
-                    About <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
-                </button>
-            </div>
-            <div class="header-first-row-right-section">
-                <button class="header-language-button">
-                   <span><i class="fa-solid fa-globe"></i></span> EN
-                </button>
-                <a class="header-help-link">
-                    Help
-                </a>
-                <a class="header-log-in-link">
-                    Log in
-                </a>
-                <a class="header-sign-up-link">
-                    Sign up
-                </a>
-            </div>
-        </div>
-        <div class="header-second-row">
-            <div class="header-second-row-left-sectioo">
-                <span class="header-second-row-ride-text">Ride</span>
-            </div>
-            <div class="header-second-row-right-section">
-                <a class="header-request-a-ride-link">
-                    Request a ride
-                </a>
-                <a class="header-reserve-a-ride-link">
-                    Reserve a ride
-                </a>
-                <a class="header-see-prices-link">
-                    See prices
-                </a>
-                <a class="header-explore-ride-options-link">
-                    Explore ride options
-                </a>
-                <a class="header-airport-rides-link">
-                    Airport rides
-                </a>
-            </div>
-        </div>
-    </header>
-
-    <section class="hero">
-        <div class="column1">
-            <div class="city-details">
-                <div>
-                   <span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Pune,IN
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/general.css">
+    </head>
+    <body>
+        <header>
+            <div class="row1">
+                <div class="header-first-row">
+                    <div class="header-first-row-left-section">
+                        <a class="header-uber-text">
+                            Uber
+                        </a>
+                        <a class="header-ride-link">
+                            Ride
+                        </a>
+                        <a class="header-drive-link">
+                            Drive
+                        </a>
+                        <a class="header-business-link">
+                            Business
+                        </a>
+                        <button class="header-about-button">
+                            About <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                        </button>
+                    </div>
+                    <div class="header-first-row-right-section">
+                        <button class="header-language-button">
+                        <span><i class="fa-solid fa-globe"></i></span> EN
+                        </button>
+                        <a class="header-help-link">
+                            Help
+                        </a>
+                        <a class="header-log-in-link">
+                            Log in
+                        </a>
+                        <a class="header-sign-up-link">
+                            Sign up
+                        </a>
+                    </div>
                 </div>
-                <button>
-                    Change city
-                </button>
             </div>
+            <div class="row2">
+                <div class="header-second-row">
+                    <div class="header-second-row-left-section">
+                        <span class="header-second-row-ride-text">Ride</span>
+                    </div>
+                    <div class="header-second-row-right-section">
+                        <a class="header-request-a-ride-link">
+                            Request a ride
+                        </a>
+                        <a class="header-reserve-a-ride-link">
+                            Reserve a ride
+                        </a>
+                        <a class="header-see-prices-link">
+                            See prices
+                        </a>
+                        <a class="header-explore-ride-options-link">
+                            Explore ride options
+                        </a>
+                        <a class="header-airport-rides-link">
+                            Airport rides
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class=" container hero">
+            <div class="column1">
+                <div class="city-details">
+                    <div>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Pune,IN
+                    </div>
+                    <button>
+                        Change city
+                    </button>
+                </div>
+                <h1>
+                    Request a ride for now or later
+                </h1>
+                <div class="promotional-text">
+                    <strong>
+                        <span><i class="fa fa-tag" aria-hidden="true"></i></span>Up to 50% off your first 5 Uber rides
+                    </strong>
+                    <span>
+                        .T&Cs apply.* *Valid within 15 days of signup.
+                    </span>
+                </div>
+                <div class="searchbars">
+                    <div class="searchbar1">
+                        <span class="dot-icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        <span class="location-icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
+                        <input placeholder="Pickup location">
+                    </div>
+                    <div class="line"></div>
+                    <div class="searchbar2">
+                        <span><i class="fa fa-square" aria-hidden="true"></i></span>
+                        <input placeholder="Dropoff location">
+                    </div>
+                </div>
+                <a class="link1">
+                    See Prices
+                </a>
+                <a class="link2">
+                    Schedule for later
+                </a>
+            </div>
+            <img src="images/section-1.1.jpg">
+        </section>
+
+        <section class="container suggestions">
+            <h1>Suggestions</h1>
+            <div class="feature-container">
+                <a class="feature">
+                    <div class="column1">
+                        <div class="text">
+                            <span>Ride</span>
+                            <p>
+                                Go anywhere with Uber Request a ride, hop in, and go. 
+                            </p>
+                        </div>
+                        <button>
+                            Details
+                        </button>
+                    </div>
+                    <div class="column2">
+                        <img src="/images/top_bar_rides_3d.png">
+                    </div>
+                </a>
+                <a class="feature">
+                    <div class="column1">
+                        <div class="text">
+                            <span>Reserve</span>
+                            <p>
+                                Reserve your ride in advance so you can relax on the day of your trip. 
+                            </p>
+                        </div>
+                        <button>
+                            Details
+                        </button>
+                    </div>
+                    <div class="column2">
+                        <img src="/images/reserve_clock.png">
+                    </div>
+                </a>
+                <a class="feature">
+                    <div class="column1">
+                        <div class="text">
+                            <span>Intercity</span>
+                            <p>
+                                Get convenient, affordable outstation cabs anytime at your door. 
+                            </p>
+                        </div>
+                        <button>
+                            Details
+                        </button>
+                    </div>
+                    <div class="column2">
+                        <img src="/images/intercity.png">
+                    </div>
+                </a>
+                <a class="feature">
+                    <div class="column1">
+                        <div class="text">
+                            <span>Courier</span>
+                            <p>
+                                Uber makes same-day item delivery easier than ever. 
+                            </p>
+                        </div>
+                        <button>
+                            Details
+                        </button>
+                    </div>
+                    <div class="column2">
+                        <img src="/images/Courier.png">
+                    </div>
+                </a>
+                <a class="feature">
+                    <div class="column1">
+                        <div class="text">
+                            <span>Rentals</span>
+                            <p>
+                                Request a trip for a block of time and make multiple stops. 
+                            </p>
+                        </div>
+                        <button>
+                            Details
+                        </button>
+                    </div>
+                    <div class="column2">
+                        <img src="/images/Hourly2021.png">
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="container">
             <h1>
-                Request a ride for now or later
+                Plan for later
             </h1>
-            <div class="promotional-text">
-                <strong>
-                    <span><i class="fa fa-tag" aria-hidden="true"></i></span>Up to 50% off your first 5 Uber rides
-                </strong>
-                <span>
-                    .T&Cs apply.* *Valid within 15 days of signup.
-                </span>
+            <div  class="plan-for-later">
+                <div class="first-column">
+                    <div class="contents">
+                        <h1>
+                        Get your ride right with Uber Reserve
+                        </h1>
+                        <div class="heading">
+                            Choose date and time
+                        </div>
+                        <div class="date-time-container">
+                            <div class="column1">
+                                <div>Date</div>
+                                <span><i class="fa-solid fa-calendar" style="color: #000000;"></i></span>
+                                <button class="date-button">Date</button>
+                            </div>
+                            <div class="column2">
+                                <div>Time</div>
+                                <span><i class="fa-solid fa-clock" style="color: #000000;"></i></span>
+                                <div class="dropdown-icon">
+                                    <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                                </div>
+                                <button class="time-button">Time</button>
+                            </div>
+                        </div>
+                        <button class="next-button">Next</button>
+                    </div>
+                </div>
+                <div class="second-column">
+                    <div class="benefits">
+                        <strong>
+                            Benefits
+                        </strong>
+                        <div class="benefit-row">
+                            <span><i class="fa-solid fa-calendar" style="color: #000000;"></i></span>
+                            <p>
+                                Choose your exact pickup time up to 90 day in advance.
+                            </p>
+                        </div>
+                        <div class="benefit-row">
+                            <span><i class="fa-regular fa-clock" style="color: #000000;"></i></span>
+                            <p>
+                                Extra wait time included to meet your ride.
+                            </p>
+                        </div>
+                        <div class="benefit-row">
+                            <span><i class="fa-solid fa-credit-card" style="color: #000000;"></i></span>
+                            <p>
+                                cancel at no charge upto 60 mins in advance.
+                            </p>
+                        </div>
+                        <a>See terms</a>
+                    </div>
+                </div>
             </div>
-            <div class="searchbars">
-                <div class="searchbar1">
-                    <span class="dot-icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
-                    <span class="location-icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
-                    <input placeholder="Pickup location">
-                </div>
-                <div class="line"></div>
-                <div class="searchbar2">
-                    <span><i class="fa fa-square" aria-hidden="true"></i></span>
-                    <input placeholder="Dropoff location">
-                </div>
-            </div>
-            <a class="link1">
-                See Prices
-            </a>
-            <a class="link2">
-                Schedule for later
-            </a>
-        </div>
-        <img src="images/section-1.1.jpg">
-    </section>
-
-    <section class="suggestions">
-        <h1>Suggestions</h1>
-        <div class="feature-container">
-            <a class="feature">
-                <div class="column1">
-                    <div class="text">
-                        <span>Ride</span>
-                        <p>
-                            Go anywhere with Uber Request a ride, hop in, and go. 
-                        </p>
-                    </div>
-                    <button>
-                        Details
-                    </button>
-                </div>
-                <div class="column2">
-                    <img src="/images/top_bar_rides_3d.png">
-                </div>
-            </a>
-            <a class="feature">
-                <div class="column1">
-                    <div class="text">
-                        <span>Reserve</span>
-                        <p>
-                            Reserve your ride in advance so you can relax on the day of your trip. 
-                        </p>
-                    </div>
-                    <button>
-                        Details
-                    </button>
-                </div>
-                <div class="column2">
-                    <img src="/images/reserve_clock.png">
-                </div>
-            </a>
-            <a class="feature">
-                <div class="column1">
-                    <div class="text">
-                        <span>Intercity</span>
-                        <p>
-                            Get convenient, affordable outstation cabs anytime at your door. 
-                        </p>
-                    </div>
-                    <button>
-                        Details
-                    </button>
-                </div>
-                <div class="column2">
-                    <img src="/images/intercity.png">
-                </div>
-            </a>
-            <a class="feature">
-                <div class="column1">
-                    <div class="text">
-                        <span>Courier</span>
-                        <p>
-                            Uber makes same-day item delivery easier than ever. 
-                        </p>
-                    </div>
-                    <button>
-                        Details
-                    </button>
-                </div>
-                <div class="column2">
-                    <img src="/images/Courier.png">
-                </div>
-            </a>
-            <a class="feature">
-                <div class="column1">
-                     <div class="text">
-                        <span>Rentals</span>
-                        <p>
-                            Request a trip for a block of time and make multiple stops. 
-                        </p>
-                    </div>
-                    <button>
-                        Details
-                    </button>
-                </div>
-                <div class="column2">
-                    <img src="/images/Hourly2021.png">
-                </div>
-            </a>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 </html>

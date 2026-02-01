@@ -1,16 +1,21 @@
-.header-first-row{
+header .row1{
     background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 64px;
+    z-index: 1000000;
+}
+.header-first-row{
     color: white;
     display: flex;
-    height: 70px;
+    height: 64px;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    position:fixed;
-    top: 0;
-    right:0;
-    left: 0;
-    padding: 0 64px;
+    max-width: 1214.72px;
+    margin: 0 auto;
 }
 
 .header-first-row-right-section{
@@ -65,7 +70,6 @@
     margin-right: 4px;
 }
 
-
 .header-sign-up-link{
     background-color: white;
     color: black;
@@ -76,15 +80,20 @@
     cursor: pointer;
 }
 
+header .row2{
+    padding: 0 64px;
+    z-index: 1000000;
+}
+
 .header-second-row{
-    background-color: white;
     color: #6B6B6B;
     display: flex;
-    height: 70px;
+    height: 64px;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    padding: 0 64px;
+    max-width: 1214.72px;
+    margin: 0 auto;
 }
 
 .header-second-row-right-section{
