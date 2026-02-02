@@ -386,7 +386,73 @@ height: 100px;
   padding: 12px 24px;
   border-radius: 10px;
   border: none;
+  margin-top: 20px;
 }
 
+.business{
+  background-color: black;
+  position: static;
+  left: 0;
+  right: 0;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
 
+.business-flex .text{
+  width: 430px;
+}
+
+.business a {
+  text-decoration: underline;
+}
+
+.business-flex{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.business-flex a{
+  color: inherit;
+}
+
+.business-flex li{
+  margin: 35px 0;
+}
+
+.business-flex img{
+  width: 525px;
+  height: 295px;
+  margin-left: 120px;
+  object-fit: cover;
+}
+
+.business-flex button{
+  border: none;
+  font-size: inherit;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.business-flex span{
+  text-decoration: underline;
+}
+
+.faq{
+  padding-top: 40px;
+}
+
+.faq .question{
+  border-bottom: 1px solid rgb(0, 0, 0, 0.04);
+  padding: 16px 0;
+  position: relative;
+}
+
+.question span{
+  position: absolute;
+  right: 20px;
+}
 
