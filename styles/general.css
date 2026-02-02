@@ -205,7 +205,7 @@ height: 100px;
 .plan-for-later .first-column{
   width: 702.72px;
   
-  background-image: url(images/plan.png);
+  background-image: url(../images/plan.png);
   background-repeat: no-repeat;
   background-position: right;
   background-color: rgb(157, 205, 214);
