@@ -456,3 +456,57 @@ height: 100px;
   right: 20px;
 }
 
+.do-more{
+  left: 0;
+  right: 0;
+  background-color: #f6f6f6;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.do-more-flex{
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.do-more-flex img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.qr-column , .uber-column{
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  position: relative;
+}
+
+.qr-column span, .uber-column span{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+
+.qr-column h2{
+  margin-bottom: 0px;
+}
+
+.qr-column p{
+  margin-top: 2px;
+}
+
+.tnc{
+  padding: 40px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.tnc span{
+  display: inline-block;
+  margin-top: 120px;
+}
