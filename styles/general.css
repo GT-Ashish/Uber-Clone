@@ -312,6 +312,81 @@ height: 100px;
   color: rgb(75, 75, 75);
 }
 
+.ride-with-friends{
+  display: flex;
+  gap: 80px;
+  vertical-align: center;
+  padding: 64px;
+}
+
+.ride-with-friends img{
+  width: 558px;
+  height: 314px;
+}
+
+.ride-with-friends .text{
+  width: 430px;
+}
+
+.ride-with-friends .text p{
+  line-height: 25px;
+}
+
+.ride-with-friends .text div{
+  margin-top: 20px;
+  display: inline-block;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.ride-with-friends .text div:hover{
+  border-bottom: 1px solid  black;
+}
+
+.use-uber-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.use-uber h1{
+  width: 700px;
+}
+
+.use-uber-item img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 16px;
+
+}
+
+.use-uber-item{
+  width: 338.24px;
+}
+
+.use-uber-item a{
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.use-uber-item span{
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.use-uber-item span:hover{
+  opacity: 0.8;
+}
+
+.use-uber-item button{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+}
 
 
 
