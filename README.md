@@ -1,88 +1,105 @@
-# 🚗 Uber Clone (Frontend)
+Uber Ride Page UI Clone (Frontend)
 
-A frontend clone of the Uber website built using HTML, CSS, and JavaScript.  
-This project is created for learning and practice purposes, focusing on UI design, interactivity, and responsive layouts.
+A frontend UI clone of Uber’s Ride landing page built using HTML and CSS, with a focus on layout accuracy, spacing, and responsive design.
+This project is created purely for learning and practice purposes.
 
----
+🌐 Live Demo:
+👉 https://gt-ashish.github.io/Uber-Clone/
 
-## 📌 Project Overview
+📌 Project Overview
 
-This Uber Clone replicates the visual design and basic interactive behavior of the Uber homepage.  
-The project aims to strengthen frontend fundamentals by building a real-world inspired interface.
+This project replicates the visual design and structure of Uber’s Ride page (India version).
+The goal was to practice building a real-world website UI and strengthen frontend fundamentals like layout, positioning, and responsiveness.
 
----
+This is a UI clone, not a functional Uber application.
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
-- HTML5  
-- CSS3  
-- JavaScript (ES6)  
-- Flexbox & Responsive Design  
+HTML5
 
----
+CSS3
 
-## ✨ Features
+Flexbox
 
-- Clean and modern UI inspired by Uber  
-- Responsive layout for mobile, tablet, and desktop  
-- Interactive elements using JavaScript  
-- Proper use of Flexbox and semantic HTML  
+Responsive Design
 
----
+Font Awesome (icons)
 
-## 📂 Project Structure
+✨ Features
 
+Clean and modern UI inspired by Uber
+
+Navigation bar with multiple sections
+
+Card-style layout with background images
+
+Responsive design for desktop and tablet screens
+
+Semantic HTML and structured CSS
+
+Organized project structure
+
+📂 Project Structure
 Uber-Clone/
 │
 ├── index.html
-├── css/
-│ └── styles.css
-├── js/
-│ └── script.js
-├── assets/
-│ ├── images/
-│ └── icons/
-└── README.md
+├── styles/
+│   ├── general.css
+│   ├── header.css
+│   └── footer.css
+├── images/
+│   └── *.png / *.svg
+├── README.md
 
-## 🚀 How to Run the Project
+🚀 How to Run the Project Locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/GT-Ashish/Uber-Clone.git
+Clone the repository:
+
+git clone https://github.com/GT-Ashish/Uber-Clone.git
+
+
 Navigate to the project folder:
 
-bash
-
 cd Uber-Clone
+
 
 Open index.html in your browser.
 
 🎯 Learning Objectives
+
 Practice cloning real-world websites
 
-Improve JavaScript DOM manipulation skills
+Improve CSS layout and Flexbox skills
 
-Learn responsive UI development
+Understand responsive UI development
 
-Understand frontend project structure
+Learn proper frontend project structuring
 
-🔮 Planned Features
-Form validation using JavaScript
+Gain confidence in building UI clones
 
-Interactive navbar or modal
+🔮 Planned Improvements
 
-Dynamic UI updates
+Better mobile responsiveness
 
-Improved responsiveness and animations
+Hover and transition animations
+
+Interactive navbar dropdowns
+
+Minor JavaScript enhancements
+
+Accessibility improvements
 
 ⚠️ Disclaimer
+
 This project is not affiliated with Uber Technologies Inc.
-It is created solely for educational purposes.
+It is created solely for educational and learning purposes.
 
 🙌 Author
+
 Ashish Murarka
 GitHub: https://github.com/GT-Ashish
 
 ⭐ Feedback & Contributions
-Suggestions and improvements are welcome.
+
+Feedback, suggestions, and improvements are welcome.
 Feel free to fork the repository or open an issue.
